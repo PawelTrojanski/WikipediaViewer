@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #2c3e50;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+#wiki-search {
+	text-align: center;
+	color: white;
+	margin-top: 220px;
+}
+
+#wiki-search a {
+	color: #ecf0f1;
+	text-decoration: none;
+	border: 2px solid #ecf0f1;
+	border-radius: 5px;
+	padding: 8px;
+	margin: 16px 6px;
+	display: inline-block;
+	transition: 0.1s background, 0.1s color, 0.1s padding;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+#wiki-search a:hover {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+#wiki-search input {
+	background: #ecf0f1;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	outline: none;
+	font-size: 16px;
+	font-family: monospace;
+}
+
+#wiki-results {
+	margin: 64px auto;
+	padding: 0 32px;
+	max-width: 800px;
+}
+
+#wiki-results .result {
+	background: white;
+	color: #222;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 5px;
+	transition: 0.1s border;
+	border-left: 0px solid #e76e22;
+}
+
+#wiki-results .result:hover {
+	border-left: 10px solid #e67e22;
+}
+
+#wiki-results .result a {
+	color: #222;
+	text-decoration: none;
+}
+
+#wiki-results .result h1 {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+#footer {
+	color: #ecf0f1;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 32px;
+}
